@@ -1,0 +1,12 @@
+T_old.nodes=[1,-1,2;sqrt(3),0,-3];
+T_old.n=[1;2;3];
+T_old.e=[1;2;3];
+T_old.t=[1];
+T_old.En=[1,2,3;2,3,1];
+T_old.types=[1];
+T_old.info=[];
+T_old.num_nodes=3;
+T_old.num_tri=1;
+T_old.num_edges=3;
+T_old.refined=zeros(7,T_old.num_edges);
+[T_new]=refine(T_old,1,2);
