@@ -100,7 +100,7 @@ for i=1:T_old.num_tri
         [Lia,Locb] = ismember([B,C],T_old.En','rows');
         if Locb==0
             [Lia,Locb] = ismember([C,B],T_old.En','rows');
-            result_2=Locb; %result_2 denotes the location of AB edge in T_old.En
+            result_2=Locb; %result_2 denotes the location of BC edge in T_old.En
         else
             result_2=Locb;
         end
@@ -142,7 +142,7 @@ for i=1:T_old.num_tri
         [Lia,Locb] = ismember([C,A],T_old.En','rows');
         if Locb==0
             [Lia,Locb] = ismember([A,C],T_old.En','rows');
-            result_3=Locb; %result_3 denotes the location of AB edge in T_old.En
+            result_3=Locb; %result_3 denotes the location of CA edge in T_old.En
         else
             result_3=Locb;
         end
@@ -377,7 +377,7 @@ for i=1:T_old.num_tri
         [Lia,Locb] = ismember([C,A],T_old.En','rows');
         if Locb==0
             [Lia,Locb] = ismember([A,C],T_old.En','rows');
-            result_3=Locb; %result_3 denotes the location of AB edge in T_old.En
+            result_3=Locb; %result_3 denotes the location of CA edge in T_old.En
         else
             result_3=Locb;
         end
@@ -504,7 +504,7 @@ for i=1:T_old.num_tri
         [Lia,Locb] = ismember([B,C],T_old.En','rows');
         if Locb==0
             [Lia,Locb] = ismember([C,B],T_old.En','rows');
-            result_2=Locb; %result_2 denotes the location of AB edge in T_old.En
+            result_2=Locb; %result_2 denotes the location of BC edge in T_old.En
         else
             result_2=Locb;
         end
@@ -927,7 +927,7 @@ for i=1:T_old.num_tri
         [Lia,Locb] = ismember([B,C],T_old.En','rows');
         if Locb==0
             [Lia,Locb] = ismember([C,B],T_old.En','rows');
-            result_2=Locb; %result_2 denotes the location of AB edge in T_old.En
+            result_2=Locb; %result_2 denotes the location of BC edge in T_old.En
         else
             result_2=Locb;
         end
@@ -970,7 +970,7 @@ for i=1:T_old.num_tri
         [Lia,Locb] = ismember([C,A],T_old.En','rows');
         if Locb==0
             [Lia,Locb] = ismember([A,C],T_old.En','rows');
-            result_3=Locb; %result_3 denotes the location of AB edge in T_old.En
+            result_3=Locb; %result_3 denotes the location of CA edge in T_old.En
         else
             result_3=Locb;
         end
@@ -1192,7 +1192,7 @@ for i=1:T_old.num_tri
         [Lia,Locb] = ismember([B,C],T_old.En','rows');
         if Locb==0
             [Lia,Locb] = ismember([C,B],T_old.En','rows');
-            result_2=Locb; %result_2 denotes the location of AB edge in T_old.En
+            result_2=Locb; %result_2 denotes the location of BC edge in T_old.En
         else
             result_2=Locb;
         end
@@ -1233,7 +1233,7 @@ for i=1:T_old.num_tri
         [Lia,Locb] = ismember([C,A],T_old.En','rows');
         if Locb==0
             [Lia,Locb] = ismember([A,C],T_old.En','rows');
-            result_3=Locb; %result_3 denotes the location of AB edge in T_old.En
+            result_3=Locb; %result_3 denotes the location of AC edge in T_old.En
         else
             result_3=Locb;
         end
@@ -1418,7 +1418,7 @@ for i=1:T_old.num_tri
         [Lia,Locb] = ismember([B,C],T_old.En','rows');
         if Locb==0
             [Lia,Locb] = ismember([C,B],T_old.En','rows');
-            result_2=Locb; %result_2 denotes the location of AB edge in T_old.En
+            result_2=Locb; %result_2 denotes the location of BC edge in T_old.En
         else
             result_2=Locb;
         end
@@ -1460,7 +1460,7 @@ for i=1:T_old.num_tri
         [Lia,Locb] = ismember([C,A],T_old.En','rows');
         if Locb==0
             [Lia,Locb] = ismember([A,C],T_old.En','rows');
-            result_3=Locb; %result_3 denotes the location of AB edge in T_old.En
+            result_3=Locb; %result_3 denotes the location of CA edge in T_old.En
         else
             result_3=Locb;
         end
@@ -1645,7 +1645,7 @@ for i=1:T_old.num_tri
         [Lia,Locb] = ismember([C,A],T_old.En','rows');
         if Locb==0
             [Lia,Locb] = ismember([A,C],T_old.En','rows');
-            result_3=Locb; %result_3 denotes the location of AB edge in T_old.En
+            result_3=Locb; %result_3 denotes the location of AC edge in T_old.En
         else
             result_3=Locb;
         end
@@ -1675,7 +1675,7 @@ for i=1:T_old.num_tri
         [Lia,Locb] = ismember([B,C],T_old.En','rows');
         if Locb==0
             [Lia,Locb] = ismember([C,B],T_old.En','rows');
-            result_2=Locb; %result_2 denotes the location of AB edge in T_old.En
+            result_2=Locb; %result_2 denotes the location of BC edge in T_old.En
         else
             result_2=Locb;
         end
